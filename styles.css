@@ -1,0 +1,171 @@
+
+body {
+  margin: 0;
+  background-color: white;
+  min-height: 100%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  color: #4FA095;
+  font-weight: normal;
+}
+
+h3 {
+  color: #F38181;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-family: Pacifico, cursive;
+  font-size: 3.5rem;
+  color: #4FA095;
+  line-height: 2;
+  /*16px= 100%=1em   rem helps to not change font size even though we change the body size*/
+}
+
+p {
+  margin: 0;
+  font-family: Oswald, sans-serif;
+  line-height: 2;
+}
+ol{
+  line-height: 2;
+}
+a{
+  color: #4FA095;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+}
+a:hover{
+  color: #EAF6F6;
+  text-decoration: none;
+}
+.h2 {
+  margin: 0;
+  font-style: italic;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.mountain {
+  padding-top: 160px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 30px;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 200px;
+}
+
+.top-container {
+  padding-top: 150px;
+  background-color: #DEF5E5;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #EAEAEA;
+    padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #85C88A;
+  padding: 30px;
+}
+
+.para {
+  margin: 0 10px 0 0;
+  font-size: 0.85rem;
+  color: #EAEAEA;
+  padding-top: 15px;
+
+}
+
+.para1{
+  width:50%;
+  margin: 0 auto 30px;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.img{
+  padding-top: 25px;
+}
+
+.btn:hover {
+  color: #FF884B;
+  background-color:#85C88A;
+  margin: 0;
+  border-radius: 8%;
+  padding:5px 8px 5px 8px;
+}
+.btn{
+  color: #FF884B;
+  background-color:#4FA095;
+  margin: 0;
+  border-radius: 8%;
+  padding: 5px 8px 5px 8px;
+  text-decoration: none;
+}
+.pad{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skill-row1{
+  width:60%;
+  margin: 0 auto 80px;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.img2{
+  width: 35%;
+  float:left;
+  margin-right: 30px;
+}
+
+.img1{
+  width: 45%;
+  float:right;
+  margin-left: 30px;
+}
+
+.s{
+  margin: 0;
+}
+
+.a{
+  list-style-type:disc;
+  margin-left: 50px;
+}
+.ba{
+  list-style-type:disc;
+}
+
+hr{
+  border-top-style:dotted;
+  width: 5%;
+  border-top: 8px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: grey;
+  border-style: dotted;
+}
+
+/*.Web{
+  font-family: cursive;
+}*/
